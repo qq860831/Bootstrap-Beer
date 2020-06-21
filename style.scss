@@ -1,8 +1,22 @@
+body{
+    background: goldenrod;
+}
+.container{
+    background: gray;
+}
+
+
+
+
+
+// 輪播圖片
 .carousel-item img{
     height: 600px;
+    // 元素適應:自動縮放
     object-fit: cover;   
 }
-.card-img-overlay{
-    height: 300px;
+// 卡片圖片
+.card img{
+    height: 350px;
     object-fit: cover;
 }
